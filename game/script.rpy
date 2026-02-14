@@ -70,10 +70,9 @@ label start:
     ca "..."
 
 
-    
     scene forest6
     with dissolve
-    show mfb_neutral with dissolve
+    show mfb_neutral with dissolve # MIDDLE BODY
     mo "This road reminds me of the one in my dream..."
     mo "I wonder where it leads to."
     hide mfb_neutral
@@ -137,39 +136,39 @@ label start:
     menu:
         "Yes, its time to rest":
             jump build_fire
-        "No, we should continue our journey":
+        "No, we should continue":
             jump no_build_fire
 
     label build_fire:
-        scene forest9
+        #ANIMACION DE HACIENDOSE FOGATA O BULDEO DE MENU
+        scene forest10
         with dissolve
-        show mfb_neutral with dissolve
+        show mfb_neutral 
         show cas_right at enter_right with dissolve
-        hide mfb_neutral with dissolve
-        show mfb_smile with dissolve
-        mo "Maybe we can find a treasure here..."
+        hide mfb_neutral 
+        show mfb_smile 
+        mo "Its a great opportunity..."
         ca "..."
         mo "To enjoy the moonlight and the warmth of the fire..."
         mo "I'll going to read a little more about Clock City..."
-        hide mfb_smile with dissolve
-        show mfb_neutral with dissolve
+        hide mfb_smile 
+        show mfb_neutral 
         mo "Maybe we can find a way to destroy that horrible place..."
         hide mfb_neutral
-        show mfb_smile with dissolve
+        show mfb_smile 
         mo "Come on Casiopeia..."
         mo "Grab some wild berries for us"
         ca "..."
-        hide mfb_smile with dissolve
-        hide cas_right with dissolve
+        hide mfb_smile 
+        hide cas_right
         jump read_story
 
 
 
     label no_build_fire:
         scene forest9
-        with dissolve
-        show mfb_neutral with dissolve
-        show cas_right at enter_right with dissolve
+        show mfb_neutral 
+        show cas_right at enter_right 
         hide mfb_neutral
         show mfb_smile
         mo "Come on Casiopeia..."
@@ -187,17 +186,25 @@ label start:
         mo "We are here..."
         mo "The castle is just ahead..."
         ca "..."
+        hide mfb_neutral
+        hide cas_right
+        with dissolve
+        scene black with fade
         # REPRODUIR VIDEO DEL BOSQUE ALTERADO POR EL EFECTO DE LA RUIDO
         scene ruins1
-        with dissolve
-        show mfb_neutral with dissolve
-        show cas_right at enter_right with dissolve
+        with dissolve 
+        show mfb_angry with dissolve #MIDDLE BODY
         mo "Its time..."
-        ca "..."
 
+        scene ruins2
+        with dissolve
+        show mfb_angry #MIDDLE BODY
+        mo "SHOW YOURSELF FUCKING DEMON"
+s
+        jump ruins_way
 
     label read_story:
-        scene forest9
+        scene forest10
         with dissolve
 
         show mfb_neutral with dissolve # MEDIO CUERPO
@@ -211,8 +218,6 @@ label start:
         book "We can see the castle from the road..."
         book "The castle is a big castle..."
 
-        hide mfb_neutral
-        show mfb_smile
 
         mo "I hear something..."
 
@@ -221,9 +226,9 @@ label start:
 
     label hear_noise:
     # REPRODUIR VIDEO DEL BOSQUE ALTERADO POR EL EFECTO DE LA RUIDO
-        scene ruins1
+        scene forest10
         with dissolve
-        show mfb_neutral with dissolve
+        show mfb_neutral with dissolve #MIDDLE BODY
         show cas_right at enter_right with dissolve
         mo "Thats sounds like..."
         mo "...this fucking bugs..."
@@ -232,7 +237,14 @@ label start:
         show mfb_angry with dissolve
         mo "Its time to revenge the loss time..."
         ca "..."
+        mo "We will set up an ambush"
         hide mfb_angry
+        hide cas_right
+        with dissolve
+        scene black with fade
+        jump river_way
+
+
 
 
 label river_way:
@@ -255,8 +267,6 @@ label river_way:
 
 
 label ruins_way:
-    scene ruins2
-    with dissolve
 
     play movie "images/backgrounds/ruins3.webm"
     $ renpy.pause()
