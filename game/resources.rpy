@@ -3,22 +3,44 @@
 
 
 define mo = Character(None, kind=bubble, image="mfb_neutral")
-define ca = Character(None, kind=bubble, image="grayg_idle")
+define ca = Character(None, kind=bubble, image="cas_right")
+define gr = Character(None, kind=bubble, image="grayg_idle")
+
 define book = Character(None, kind=nvl)
 
 
 
 # IMAGE DEFINITIONS 
-## MOOMO
+## MOMO
 image mfb_neutral = "images/sprites/momo/momo_fb_neutral.png"
 image mfb_smile = "images/sprites/momo/momo_fb_smile.png"
 image mfb_angry = "images/sprites/momo/momo_fb_angry.png"
 image mfb_surprised = "images/sprites/momo/momo_fb_surprised.png"
 image mfb_back = "images/sprites/momo/momo_fb_back.png"
+image mfb_fight = "images/sprites/momo/momo_fb_fight.png"
+
+image mmb_neutral = "images/sprites/momo/momo_mb_neutral.png"
+image mmb_smile = "images/sprites/momo/momo_mb_smile.png"
+image mmb_angry = "images/sprites/momo/momo_mb_angry.png"
+image mmb_surprised = "images/sprites/momo/momo_mb_surprised.png"
+image mmb_back = "images/sprites/momo/momo_mb_back.png"
+image mmb_fight = "images/sprites/momo/momo_mb_fight.png"
+
 ## CASIOPEIA
-image cas_neutral = "images/sprites/casiopeia/cas_neutral.png"
 image cas_right = "images/sprites/casiopeia/cas_right.png"
 image cas_left = "images/sprites/casiopeia/cas_left.png"
+image cas_mb_right = "images/sprites/casiopeia/cas_mb_right.png"
+image cas_mb_left = "images/sprites/casiopeia/cas_mb_left.png"
+
+
+## GRAY GENTLEMA ANOMALY
+image grayg_fb = "images/sprites/grayg/grayg_fb.png"
+image grayg_fb_left = "images/sprites/grayg/grayg_fb_left.png"
+image grayg_fb_right = "images/sprites/grayg/grayg_fb_right.png"
+# image grayg_idle = "images/sprites/grayg/grayg_idle.png"
+image grayg_mb = "images/sprites/grayg/grayg_mb.png"
+image grayg_mb_left = "images/sprites/grayg/grayg_mb_left.png"
+image grayg_mb_right = "images/sprites/grayg/grayg_mb_right.png"
 
 
 
