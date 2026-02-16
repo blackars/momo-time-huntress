@@ -28,7 +28,7 @@ label start:
     mo "Come on, Casiopeia..."
     mo "You have to checkout the view..."
     hide mfb_neutral with dissolve
-    show mfb_back with dissolve
+    show mfb_back with dissolve 
     scene black with dissolve
     
     scene forest3
@@ -148,7 +148,6 @@ label start:
     scene black with dissolve
 
     label build_fire:
-        #ANIMACION DE HACIENDOSE FOGATA O BULDEO DE MENU
         scene forest10
         with dissolve
         show mmb_neutral at left
@@ -210,9 +209,48 @@ label start:
         mo "Its time..."
 
         scene ruins2
+        with dissolve  
+        show mmb_neutral with dissolve
+        mo " dsfsdfsf"
+        ca "..."
+
+        scene ruins6
+        with disolve
+        show mfb_neutral with dissolve
+        show cas_left at enter_left with dissolve
+        mo "I can smell it from here..."
+        ca "..."
+        mo "Whats wrong?"
+        ca "   "
+        
+        play movie "images/backgrounds/casnox.webm"
+        $ renpy.pause()
+        stop movie
+        with dissolve
+        
+        scene ruins6
+        with dissolve
+        show mfb_surprised at right with dissolve
+        show cas_left at left with dissolve 
+        mo "That symbols, you never use them before"
+        ca "..."
+        mo "Are you okay?"
+        mo "What was that?"
+        ca " ? "
+        mo "What kind of premonition supposed to be it"  
+        ca "..."
+        hide mfb_surprised at right with dissolve
+        show mfb_neutral at right with dissolve
+        mo "With that dammed bug around here its not good time to try to undertand that"
+        ca "..."
+        mo "Let's hurry, it's close to us, I can feel it"
+
+
+        scene ruins3
         with dissolve
         show mmb_angry
         mo "SHOW YOURSELF FUCKING DEMON!"
+        mo "We are preparing a grave hole for you!"
         hide mmb_angry
         show mmb_back
         pause 1.5
@@ -268,8 +306,6 @@ label start:
         jump river_way
 
 
-
-
 label river_way:
     scene forest11
     with dissolve
@@ -297,11 +333,74 @@ label river_way:
 
     scene river2
     with dissolve
+    show mmb_neutral at enter_left with dissolve
+    show cas_mb_rigth at enter_right with dissolve
+    mo "Following the riverbed can hide our scent and muffle our noise."
+    mo "We’ll sneak up on that bug from behind"
 
     scene river3
     with dissolve
+    show mmb_neutral at enter_left with dissolve
+    show cas_mb_rigth at enter_right with dissolve
+    mo "lorem bla bla"
+    mo "lorem bla bla"
+    ca "..."
+    mo "lorem bla bla"
+    mo "lorem bla bla"
+    mo "lorem bla bla"
 
+    scene ruins7
+    with dissolve
+
+    scene ruins8
+    with dissolve
+
+    scene ruins9
+    with dissolve
+
+    scene ruins6
+    with disolve
+    show mfb_neutral with dissolve
+    show cas_left at enter_left with dissolve
+    mo "I can smell it from here..."
+    ca "..."
+    mo "Whats wrong?"
+    ca "   "
+    
+    play movie "images/backgrounds/casnox.webm"
+    $ renpy.pause()
+    stop movie
+    with dissolve
+    
+    scene ruins6
+    with dissolve
+    show mfb_surprised at right with dissolve
+    show cas_left at left with dissolve 
+    mo "That symbols, you never use them before"
+    ca "..."
+    mo "Are you okay?"
+    mo "What was that?"
+    ca " ? "
+    mo "What kind of premonition supposed to be it"  
+    ca "..."
+    hide mfb_surprised at right with dissolve
+    show mfb_neutral at right with dissolve
+    mo "With that dammed bug around here its not good time to try to undertand that"
+    ca "..."
+    mo "Let's hurry, it's close to us, I can feel it"
+
+
+    scene ruins3
+    with dissolve
+    show mmb_angry
+    mo "SHOW YOURSELF FUCKING DEMON!"
+    mo "We are preparing a grave hole for you!"
+    hide mmb_angry
+    show mmb_back
+    pause 1.5
+    hide mmb_back
     jump ruins_way
+
 
 
 
@@ -316,9 +415,33 @@ label ruins_way:
 
     scene ruins3
     with dissolve
+    show mmb_angry at enter_right with dissolve
+    mo "Cover my back Casiopeia"
+    mo "Me encargare de este maldito bicho.."
+    show grayg_mb_left at enter_left with dissolve
+    gr "AGRRRRR!"
+    mo "Your time here its finished"
+    gr "MOOOOOO-MOOOOOOOO"
+    hide mmb_angry at enter_right
+    show mmb_surprised at right
+    mo "What that hell! Sounds like my name..."
+    gr "WE NEED...HELPPPP"
+    mo "No eres el mas grande que he enfrentado"
+    mo "Pero si el primero que puede hablar"
+    hide mmb_surprised at right
+    show mmb_angry at right
+    mo "PEro tus trucos baratos no te libraran de tu castigo"
+    gr "DOOON'T WANT FIGGHT..."
+    gr "WEE NEEED SAAAVEE UNIVERSEEEE..."
+    mo "I DON'T CARE!"
+    hide mmb_agry at right
+    show mmb_fight at right with dissolve
+    gr "LEEETT EEXXPLAAAAIINN!!"
+    show grayg_mb_left at exit_left with dissolve
+    mo "I, see..." 
+    mo "You wanna make the hunt more interesting..."
 
-
-
+    scene ruins5
 
 
 
