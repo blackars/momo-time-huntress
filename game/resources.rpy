@@ -18,6 +18,11 @@ image mfb_angry = "images/sprites/momo/momo_fb_angry.png"
 image mfb_surprised = "images/sprites/momo/momo_fb_surprised.png"
 image mfb_back = "images/sprites/momo/momo_fb_back.png"
 image mfb_fight = "images/sprites/momo/momo_fb_fight.png"
+image mfb_surprised_swords = "images/sprites/momo/momo_fb_surprised_sowrds.png"
+image mfb_angry_swords = "images/sprites/momo/momo_fb_angry_swords.png"
+image mfb_smile_swords = "images/sprites/momo/momo_fb_smile_swords.png"
+image mfb_neutral_swords = "images/sprites/momo/momo_fb_neutral_swords.png"
+
 
 image mmb_neutral = "images/sprites/momo/momo_mb_neutral.png"
 image mmb_smile = "images/sprites/momo/momo_mb_smile.png"
@@ -62,7 +67,25 @@ image river2 = "images/backgrounds/river2.webp"
 image river3 = "images/backgrounds/river3.webp"
 image ruins1 = "images/backgrounds/ruins1.webp"
 image ruins2 = "images/backgrounds/ruins2.webp"
-image ruins3 = "images/backgrounds/ruins3.webm"
+image ruins3 = "images/backgrounds/ruins3.webp"
+image ruins4 = "images/backgrounds/ruins4.webm"
+image ruins5 = "images/backgrounds/ruins5.webp"
+image ruins6 = "images/backgrounds/ruins6.webp"
+image ruins7 = "images/backgrounds/ruins7.webp"
+image ruins8 = "images/backgrounds/ruins8.webp"
+image ruins9 = "images/backgrounds/ruins9.webp"
+
+image momonox = "images/backgrounds/momonox.webm"
+image graygshout = "images/backgrounds/graygshout.webm"
+image casnox = "images/backgrounds/casnox.webm"
+image finalscene = "images/backgrounds/finalscene.webm"
+image creditscene = "images/backgrounds/creditscene.webp"
+
+
+define graytalk1 = "audio/graytalk1.wav"
+
+
+
 
 
 # ANIMATIONS DEFINITIONS 

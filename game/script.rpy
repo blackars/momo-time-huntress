@@ -312,7 +312,7 @@ label river_way:
     ############## RIVER SOUNDS
     show mmb_neutral with dissolve
     mo "We can hide our trace going to river..."
-    mo "In this direction we can reach de ruins..."
+    mo "In this direction we can reach the ruins..."
     mo "And find a way below these.."
     mo "Come on Casiopeia..."
     hide mmb_neutral 
@@ -342,30 +342,62 @@ label river_way:
     with dissolve
     show mmb_neutral at enter_left with dissolve
     show cas_mb_rigth at enter_right with dissolve
-    mo "lorem bla bla"
-    mo "lorem bla bla"
+    mo "Casiopeia, you feel it..."
+    mo "This Strange vibration on the air"
     ca "..."
-    mo "lorem bla bla"
-    mo "lorem bla bla"
-    mo "lorem bla bla"
+    mo "This anomaly must be different"
+    mo "This time the arrival sound was really louder"
+    mo "And now i have this fealing "
+    mo "Come on Casiopeia..."
+
 
     scene ruins7
     with dissolve
+    show mmb_neutral at enter_left with dissolve
+    show cas_mb_rigth at enter_right with dissolve
+    mo "Here we going again Casiopeia..."
+    mo "I wonder abouth this strange vibration on the air"
+    ca "..."
+    mo "And why this time choose a place like this"
+    mo "Es muy parecido a casa..."
+    ca "..."
 
     scene ruins8
     with dissolve
+    show mmb_neutral at right with dissolve
+    mo "Me pregunto esta vez que objeto extraño habra venido a cazar ese monstruo"
+    ca "..."
+    mo "Si se que al final es solo basura sin sentido pero no dejo de preguntarme..."
+    mo "Por que comenzaron a buscarles como 'reliquias'"
+    mo "hasta hace muy poco no era asi..."
+    "El paso del tiempo nos provee rastros para entender en su flujo"
+    "Y en su flujo solo nos queda pedir que transcurra con piedad..."
+    
 
     scene ruins9
     with dissolve
+    show mmb_neutral at enter_left with dissolve
+    show cas_mb_rigth at enter_right with dissolve
+    mo "What do you think about the arrival sound?"
+    ca "..."
+    mo "Es el mas fuerte que he escuchado hasta ahora..."
+    mo "Y cada vez son o mas grandes o mas extraños"
+    ca "..."
+    mo "Something is changing, they monsters broke mucho that just time..."
+
+
+
 
     scene ruins6
-    with disolve
-    show mfb_neutral with dissolve
+    with dissolve
+    show mfb_neutral at right with dissolve
     show cas_left at enter_left with dissolve
+    mo "Come on Casiopeia..."
     mo "I can smell it from here..."
     ca "..."
     mo "Whats wrong?"
     ca "   "
+    scene black with dissolve
     
     play movie "images/backgrounds/casnox.webm"
     $ renpy.pause()
@@ -383,8 +415,8 @@ label river_way:
     ca " ? "
     mo "What kind of premonition supposed to be it"  
     ca "..."
-    hide mfb_surprised at right with dissolve
-    show mfb_neutral at right with dissolve
+    hide mfb_surprised at right 
+    show mfb_neutral at right 
     mo "With that dammed bug around here its not good time to try to undertand that"
     ca "..."
     mo "Let's hurry, it's close to us, I can feel it"
@@ -393,7 +425,7 @@ label river_way:
     scene ruins3
     with dissolve
     show mmb_angry
-    mo "SHOW YOURSELF FUCKING DEMON!"
+    mo "We gotta take care"
     mo "We are preparing a grave hole for you!"
     hide mmb_angry
     show mmb_back
@@ -408,21 +440,21 @@ label river_way:
 
 label ruins_way:
 
-    play movie "images/backgrounds/ruins3.webm"
+    play movie "images/backgrounds/ruins4.webm"
     $ renpy.pause()
     stop movie
     with dissolve
 
     scene ruins3
     with dissolve
-    show mmb_angry at enter_right with dissolve
+    show mmb_angry at right with dissolve
     mo "Cover my back Casiopeia"
     mo "Me encargare de este maldito bicho.."
-    show grayg_mb_left at enter_left with dissolve
+    show grayg_mb_left at left with dissolve
     gr "AGRRRRR!"
     mo "Your time here its finished"
     gr "MOOOOOO-MOOOOOOOO"
-    hide mmb_angry at enter_right
+    hide mmb_angry at right
     show mmb_surprised at right
     mo "What that hell! Sounds like my name..."
     gr "WE NEED...HELPPPP"
@@ -430,20 +462,84 @@ label ruins_way:
     mo "Pero si el primero que puede hablar"
     hide mmb_surprised at right
     show mmb_angry at right
-    mo "PEro tus trucos baratos no te libraran de tu castigo"
+    mo "Sus trucos baratos ya no asustan te libraran de tu castigo"
     gr "DOOON'T WANT FIGGHT..."
     gr "WEE NEEED SAAAVEE UNIVERSEEEE..."
     mo "I DON'T CARE!"
-    hide mmb_agry at right
+    hide mmb_angry at right
     show mmb_fight at right with dissolve
     gr "LEEETT EEXXPLAAAAIINN!!"
     show grayg_mb_left at exit_left with dissolve
     mo "I, see..." 
     mo "You wanna make the hunt more interesting..."
+    
 
     scene ruins5
+    show grayg_fb_left at left with dissolve  
+    show mfb_fight at right with dissolve
+    gr "WEEEE NEEEEED THE ARTIFAAAAACTSSS"
+    mo "I don't care about you fucking cheap stuff"
+    mo "Your people playing with time broke the reality!"
+    mo "Kill everybody and full the planet with craters"
+    gr "JUUUUMP TO FIIIINDD A NEEEWWW GAAAATEE"
+    gr "OOOTTHEEERRR REALITY TOOO REEESTAARTT"
+    hide mfb_fight at enter_right
+    show mfb_surprised_swords at right 
+    pause 1.5
+    hide mfb_surprised_swords at right
+    show mfb_neutral_swords at right
+    mo "Other reality?"
+    mo "Estan tratando de dejar atras el desastre que hicieron?"
+    mo "Y llevar el caos a otra realidad..."
+    gr "NOOO, JUUST RESTARRT"
+    gr "THIIIISS REALITY WAS CLAIMED FOOOORRRR SOMETHINGGG TOO MUCH POWERFULL"
+    gr "AAAAALLL UUSSS MUSSSSTTT GOOO NOOOWWWW"
+    hide mfb_neutral_swords at right
+    show mfb_angry_swords at right
+    mo "I DON'T CARE!"
+    mo "No quiero escuchar nada mas"
+    scene black with dissolve
 
+    play movie "images/backgrounds/momofight.webm"
+    $ renpy.pause()
+    stop movie
+    with dissolve
 
+    scene ruins5
+    show grayg_hfb_left at left with dissolve
+    show mfb_fight at right with dissolve
+    gr "STOOOOPPP"
+    gr "NOOO TIIIIMEEEE"
+    gr "ITS COOOMMMIIINNNNG"
+    play sound "graytalk1.wav"
+    mo "Yes, your final is comming..."
+    mo "Again this strange sound"
+    scene black with dissolve
+
+    play movie "images/backgrounds/momonox.webm"
+    $ renpy.pause()
+    stop movie
+
+    scene ruins5
+    with dissolve
+    show grayg_hfb_left at left with dissolve
+    show mfb_surprised_swords at right with dissolve
+    gr "III SSAAAAIIIDDDDD"
+    gr "ITS COOOMMMIIINNNNG"
+    mo "Que son estos simbolos"
+    hide mfb_surprised_swords at right
+    show mfb_fight at right 
+    mo "Que magia usaste en mi pergamino maldito insecto?"
+    mo "TE VOY A DESTRUUUUIRRRR"
+    scene black 
+    with dissolve
+
+    play movie "images/backgrounds/finalscene.webm"
+    $ renpy.pause()
+    stop movie
+
+    scene creditscene
+    with dissolve
 
 
     return
