@@ -82,7 +82,31 @@ image finalscene = "images/backgrounds/finalscene.webm"
 image creditscene = "images/backgrounds/creditscene.webp"
 
 
-define graytalk1 = "audio/graytalk1.wav"
+
+### MUSIC AND SOUND DEFINITIONS
+
+
+define graygtalk1 = "audio/graygtalk1.mp3"
+define graygtalk2 = "audio/graygtalk2.mp3"
+define darkambient1 = "audio/music dark ambient 1.mp3"
+define darkambient2 = "audio/music dark ambient 2.mp3"
+define braams1 = "audio/braams1.mp3"
+define braams2 = "audio/braams2.mp3"
+define braams3 = "audio/braams3.mp3"
+
+define forest1 = "audio/music forest 1.mp3"
+define forest2 = "audio/music forest 2.mp3"
+define forest3 = "audio/music forest 3.mp3"
+define forest4 = "audio/music forest 4.mp3"
+define forest5 = "audio/music forest 2.mp3"
+define river1 = "audio/music river 1.mp3"
+define river2 = "audio/music river 2.mp3"
+define darkambient1 = "audio/music dark ambient 1.mp3"
+define darkambient2 = "audio/music dark ambient 2.mp3"
+define forestambient1 = "audio/forestambient1.mp3"
+
+
+
 
 
 

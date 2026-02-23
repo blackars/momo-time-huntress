@@ -21,12 +21,14 @@ label start:
     
     scene forest2
     with dissolve
+    play music "forestambient1.mp3" volume 0.35
     show mfb_back with dissolve
     mo "Beautiful place..."
     hide mfb_back
     show mfb_neutral with dissolve
-    mo "Come on, Casiopeia..."
-    mo "You have to checkout the view..."
+    mo "Come on, Casiopeia…"
+    mo "At least pretend you're impressed."
+    mo "Even you must feel it — the air is different here."
     hide mfb_neutral with dissolve
     show mfb_back with dissolve 
     scene black with dissolve
@@ -35,11 +37,14 @@ label start:
     with dissolve
     show mmb_back with dissolve
     mo "..."
-    mo "its so beautiful here..."
+    mo "It's too beautiful… it makes me uneasy."
     mo "..."
-    mo "We can see the castle from the road..."
-    mo "I found a shorter path in this steep descent "
+    mo "From the road, we should be able to see the castle."    
+    mo "I found a shorter path down this slope."
+    mo "Steep… but faster."
+    mo "And we don't have time to waste."
     scene black with dissolve
+    stop music fadeout 1.0
 
     
     scene black with dissolve
@@ -51,22 +56,25 @@ label start:
 
     scene forest5
     with dissolve
+    play music "forestambient1.mp3" volume 0.35
     show mfb_back with dissolve
-    mo "bla bla bla"
+    mo "If we keep this pace, we'll reach the valley before nightfall."
+    mo "You always slow down when I get excited…"
     hide mfb_back 
     show mfb_neutral 
-    mo "We have a long road ahead..."
-    mo "blaa bla bla"
+    mo "We still have a long road ahead of us."
     hide mfb_neutral 
     show mfb_smile 
-    mo "To enjoy the moonlight and the warmth of the fire..."
+    mo "We'll sit under the moonlight."
+    mo "I'll make a fire."
+    mo "For a moment… we'll almost feel safe."
     hide mfb_smile 
     show mfb_back 
-    mo "bla bla bla"
     hide mfb_back 
     show mfb_neutral 
-    mo "come on, casiopeia..."
-    mo "I will fish somenthin for you..."
+    mo "Come on, Casiopeia…"
+    mo "I'll catch something for you."
+    mo "You pretend not to care, but I know you're hungry."
     show cas_right at enter_right with dissolve
     ca "..."
     scene black with dissolve
@@ -75,18 +83,18 @@ label start:
     scene forest6
     with dissolve
     show mmb_neutral with dissolve
-    mo "This road reminds me of the one in my dream..."
-    mo "I wonder where it leads to."
+    mo "This road… it feels like the one from my dream."
+    mo "I wonder where it truly leads."
     hide mmb_neutral
     show mmb_smile
-    mo "What do you think about it?" 
+    mo "What do you think?"
     show cas_right at enter_right with dissolve
     ca "..."
     hide mmb_smile
     show mmb_neutral
-    mo "Really?"
+    mo "You think so?"
     ca "..."    
-    mo "Why?"
+    mo "Why would you say that?"
     ca "..."
     mo "Then we must hurry up..."
     hide mmb_neutral with dissolve
@@ -99,16 +107,18 @@ label start:
     "... and many times blah bla blah"
     show mfb_neutral with dissolve
     show cas_right at enter_right with dissolve
-    mo "But already have this feeling of deja vu... or something like that"
+    mo "I have this strange sense of déjà vu…"
+    mo "As if the forest remembers me."
     ca "..."
-    mo "I'm sure I've been here before"
-    mo "maybe I'm just imagining it..."
-    mo "or maybe in a past life..."
-    mo "or maybe I'm just crazy..."
+    mo "I'm certain I've stood here before."
+    mo "Maybe I'm imagining it."
+    mo "Or maybe it was another life."
+    mo "Or maybe grief bends memory into strange shapes."
+    mo "Or maybe I'm just crazy..."
     ca "..."
     hide mfb_neutral
     show mfb_smile
-    mo "but not the only one here..."
+    mo "But not the only one here..."
     scene black with dissolve
 
 
@@ -116,13 +126,19 @@ label start:
     with dissolve
     show mfb_neutral with dissolve
     show cas_right at enter_right with dissolve
-    mo "Look at this ruins..."
+    mo "Look at these ruins..."
     hide mfb_neutral
     show mfb_back
     ca "..."
-    mo "Is like home..."
-    mo "before they arrived..."
+    mo "It feels like home."
+    mo "Before they came."
+    mo "Before the Gray Gentlemen turned everything to dust."
     ca "..."
+    mo "They erased my world."
+    mo "I will erase them in return."
+    ca "..."
+    mo "Don't look at me like that."
+    mo "You know I'm right."
     hide mfb_neutral
     show mfb_back 
     # hide cas_right
@@ -133,12 +149,14 @@ label start:
     scene forest9
     with dissolve
     show mmb_back with dissolve
-    mo "looks like a good place to build a fire..."
-    mo "we can rest here..."
-    mo "And in few hours we can reach the castle..."
+    mo "This looks like a good place to build a fire."
+    mo "We could rest here for a while."
+    mo "If we leave before dawn, we'll reach the castle in a few hours."
     hide mmb_back 
     show mmb_neutral
-    mo "It's a good idea?"
+    mo "What do you think?"
+    mo "Should we rest… or keep moving?"
+
 
     menu:
         "Yes, its time to rest":
@@ -154,18 +172,23 @@ label start:
         show cas_mb_right at enter_right with dissolve
         hide mmb_neutral at left
         show mmb_smile at left
-        mo "Its a great opportunity..."
+        mo "This is a good place to stop."
+        mo "For now."
         ca "..."
-        mo "To enjoy the moonlight and the warmth of the fire..."
-        mo "I'll going to read a little more about Clock City..."
+        mo "We'll sit beneath the moon."
+        mo "The fire will keep the dark at a polite distance."
+        mo "I'll read a little more about Clock City."
+        mo "About where it all began."
         hide mmb_smile at left
         show mmb_neutral at left
-        mo "Maybe we can find a way to destroy that horrible place..."
+        mo "Somewhere in those pages…"
+        mo "There must be a flaw."
+        mo "Every machine has one."
         hide mmb_neutral at left
         show mmb_smile at left
-        mo "Come on Casiopeia..."
-        mo "Grab some wild berries for us"
-        ca "..."
+        mo "Come on, Casiopeia."
+        mo "Gather some wild berries."
+        mo "I'll keep watch."
         hide mfb_smile 
         hide cas_right
         jump read_story
@@ -190,13 +213,14 @@ label start:
         show cas_right at enter_right with dissolve
         hide mfb_back
         show mfb_neutral
-        mo "We are here..."
-        mo "The castle is just ahead..."
-        ca "..."
+        mo "We're close."
+        mo "The castle is just ahead."
         hide mfb_neutral
         hide cas_right
         with dissolve
         scene black with fade
+        stop music fadeout 1.0
+
 
         play movie "images/backgrounds/graygshout.webm"
         $ renpy.pause()   # espera hasta que el video termine
@@ -205,23 +229,27 @@ label start:
 
         scene ruins1
         with dissolve 
+        play music "darkambient2.mp3" volume 0.1
         show mmb_angry with dissolve
-        mo "Its time..."
+        mo "It's time..."
 
         scene ruins2
         with dissolve  
         show mmb_neutral with dissolve
-        mo " dsfsdfsf"
-        ca "..."
+        mo "I will tear it apart."
+        mo "No mercy for those who devoured my world."
+        mo "No mercy for those who fed on our time."
 
         scene ruins6
-        with disolve
-        show mfb_neutral with dissolve
-        show cas_left at enter_left with dissolve
-        mo "I can smell it from here..."
+        with dissolve
+        show mfb_neutral at right with dissolve
+        show cas_left at left with dissolve
+        mo "I can feel it."
+        mo "Like rust in the air."
         ca "..."
-        mo "Whats wrong?"
+        mo "What is it, Casiopeia?"
         ca "   "
+        scene black with dissolve
         
         play movie "images/backgrounds/casnox.webm"
         $ renpy.pause()
@@ -232,30 +260,39 @@ label start:
         with dissolve
         show mfb_surprised at right with dissolve
         show cas_left at left with dissolve 
-        mo "That symbols, you never use them before"
+        mo "Those symbols…"
+        mo "You've never drawn them before."
         ca "..."
         mo "Are you okay?"
-        mo "What was that?"
+        mo "Was that a warning?"
+        mo "Or a memory?"
         ca " ? "
-        mo "What kind of premonition supposed to be it"  
+        mo "What kind of premonition is that supposed to be?" 
         ca "..."
-        hide mfb_surprised at right with dissolve
-        show mfb_neutral at right with dissolve
-        mo "With that dammed bug around here its not good time to try to undertand that"
+        hide mfb_surprised at right
+        show mfb_neutral at right
+        mo "With that cursed thing nearby…"
+        mo "This isn't the time to unravel riddles."
         ca "..."
-        mo "Let's hurry, it's close to us, I can feel it"
+        mo "We need to move."
+        mo "It's close."
+        mo "I can feel its shadow pressing against the air."
 
 
         scene ruins3
         with dissolve
         show mmb_angry
-        mo "SHOW YOURSELF FUCKING DEMON!"
-        mo "We are preparing a grave hole for you!"
+        mo "SHOW YOURSELF!"
+        mo "Stop hiding behind stolen seconds."
+        mo "I am done being patient."
+        mo "I have already dug your grave."
         hide mmb_angry
         show mmb_back
         pause 1.5
         hide mmb_back
         jump ruins_way
+        stop music fadeout 1.0
+
 
     label read_story:
         scene forest10
@@ -263,16 +300,26 @@ label start:
         show mmb_neutral with dissolve 
         # NVL mode: las líneas se acumulan en pantalla
         
-        book "You are reading the story of the castle..."
-        book "The castle is a big castle..."
-        book "We can see the castle from the road..."
-        book "The castle is a big castle..."
-        book "We can see the castle from the road..."
-        book "The castle is a big castle..."
+        book "A city built around a tower that never slept."
+        book "Every street aligned to the rhythm of a single mechanism."
+        book "Every citizen measured by the sound of ticking."
+        book "No one remembers who built the first clock."
+        book "Only that, one day, time began to fracture."
+        book "Shadows started arriving before their owners."
+        book "Voices echoed seconds before they were spoken."
+        book "And in the deepest chamber of the central tower,"
+        book "something began to consume the surplus of time."
+        book "They called them the Gray Gentlemen Anomaly."
+        book "But the name came much later."
+        book "At first, they were only delays."
+        book "Only absences."
+        book "Only small missing moments..."
+
 
 
         mo "..."
-        mo "Casiopeia, you feel it..."
+        mo "Casiopeia..."
+        mo "It's happen...."
         scene black with dissolve
 
         jump hear_noise
@@ -289,16 +336,18 @@ label start:
         with dissolve
         show mmb_angry at left 
         show cas_mb_right at enter_right with dissolve 
-        mo "Thats sounds like..."
-        mo "...this fucking bugs..."
-        mo "Always on time"
+        mo "That sound…"
+        mo "They're never late."
+        mo "Never early."
+        mo "Always exactly when something begins to matter."
         ca "..."
-        mo "Its time to revenge the stolen time..."
+        mo "It's time to reclaim what they stole."
+        mo "Second by second."
         ca "..."
         hide mmb_angry at left 
         show mmb_neutral at left 
-        mo "We will set up an ambush..."
-        mo "We need to move across the river..."
+        mo "We'll set an ambush."
+        mo "Let them think we are afraid."
         ca "..."
         hide mmb_neutral at left with dissolve
         hide cas_mb_right at right with dissolve
@@ -311,13 +360,18 @@ label river_way:
     with dissolve
     ############## RIVER SOUNDS
     show mmb_neutral with dissolve
-    mo "We can hide our trace going to river..."
-    mo "In this direction we can reach the ruins..."
-    mo "And find a way below these.."
-    mo "Come on Casiopeia..."
+    mo "The river will wash our scent away."
+    mo "They track patterns."
+    mo "Not instinct."
+    mo "From this direction we can reach the outer ruins..."
+    mo "There must be a passage beneath the old foundations."
+    mo "Every tower hides something underneath."
+    mo "Stay close, Casiopeia."
     hide mmb_neutral 
     show mmb_smile
-    mo "This time you're really going fish"
+    mo "And yes…"
+    mo "This time you're actually going to fish."
+    mo "We'll need the strength."
     hide mmb_smile with dissolve
     scene black with dissolve
 
@@ -326,53 +380,62 @@ label river_way:
     #RIVER SOUNDS
     show mmb_neutral at enter_left with dissolve
     show cas_mb_rigth at enter_right with dissolve
-    mo "Following the riverbed can hide our scent and muffle our noise."
-    mo "We’ll sneak up on that bug from behind"
- 
-
+    mo "Following the riverbed will hide our scent and swallow our footsteps."
+    mo "The cold water confuses their patterns."
 
     scene river2
     with dissolve
     show mmb_neutral at enter_left with dissolve
     show cas_mb_rigth at enter_right with dissolve
-    mo "Following the riverbed can hide our scent and muffle our noise."
-    mo "We’ll sneak up on that bug from behind"
+    mo "They don't hunt like beasts."
+    mo "They calculate."
+    mo "We'll approach from behind."
 
     scene river3
     with dissolve
     show mmb_neutral at enter_left with dissolve
     show cas_mb_rigth at enter_right with dissolve
-    mo "Casiopeia, you feel it..."
-    mo "This Strange vibration on the air"
+    mo "Casiopeia… do you feel that?"
+    mo "The vibration in the air."
+    mo "It wasn't like this before."
     ca "..."
-    mo "This anomaly must be different"
-    mo "This time the arrival sound was really louder"
-    mo "And now i have this fealing "
-    mo "Come on Casiopeia..."
-
+    mo "This anomaly is different."
+    mo "The arrival blast was louder this time."
+    mo "The crater must be wider."
+    mo "They're escalating."
+    mo "Come on, stay close."
+    ca "..."
 
     scene ruins7
     with dissolve
     show mmb_neutral at enter_left with dissolve
     show cas_mb_rigth at enter_right with dissolve
-    mo "Here we going again Casiopeia..."
-    mo "I wonder abouth this strange vibration on the air"
+    mo "Here we go again, Casiopeia."
+    mo "These are only forest ruins."
+    mo "An old castle swallowed by moss and silence."
+    mo "Why would it choose a place like this?"
     ca "..."
-    mo "And why this time choose a place like this"
-    mo "Es muy parecido a casa..."
-    ca "..."
+    mo "It almost looks like home."
+    mo "That's what worries me."
 
     scene ruins8
     with dissolve
     show mmb_neutral at right with dissolve
-    mo "Me pregunto esta vez que objeto extraño habra venido a cazar ese monstruo"
+    mo "I wonder what strange object it came to harvest this time."
     ca "..."
-    mo "Si se que al final es solo basura sin sentido pero no dejo de preguntarme..."
-    mo "Por que comenzaron a buscarles como 'reliquias'"
-    mo "hasta hace muy poco no era asi..."
-    "El paso del tiempo nos provee rastros para entender en su flujo"
-    "Y en su flujo solo nos queda pedir que transcurra con piedad..."
-    
+    mo "At first, it was random debris."
+    mo "Broken tools. Rusted fragments."
+    mo "Things no one would ever miss."
+    mo "Now they collect them carefully."
+    mo "As if they were relics."
+    mo "As if each piece mattered."
+    mo "Until recently, it wasn't like this."
+    mo "Each arrival leaves a crater."
+    mo "A circular wound burned into the earth."
+    mo "Space folding into itself for something so small."
+    "Time leaves traces in its passing."
+    "And in its passing, we beg it for mercy."
+    "But time does not negotiate."
 
     scene ruins9
     with dissolve
@@ -380,12 +443,15 @@ label river_way:
     show cas_mb_rigth at enter_right with dissolve
     mo "What do you think about the arrival sound?"
     ca "..."
-    mo "Es el mas fuerte que he escuchado hasta ahora..."
-    mo "Y cada vez son o mas grandes o mas extraños"
+    mo "It was the strongest I've heard."
+    mo "And every time, they grow larger."
+    mo "Or stranger."
     ca "..."
-    mo "Something is changing, they monsters broke mucho that just time..."
-
-
+    mo "Something is changing."
+    mo "They are no longer breaking only time."
+    mo "They are breaking direction."
+    mo "Breaking sequence."
+    mo "Breaking meaning."
 
 
     scene ruins6
@@ -408,25 +474,30 @@ label river_way:
     with dissolve
     show mfb_surprised at right with dissolve
     show cas_left at left with dissolve 
-    mo "That symbols, you never use them before"
+    mo "Those symbols…"
+    mo "You never trace them unless something is wrong."
     ca "..."
     mo "Are you okay?"
     mo "What was that?"
     ca " ? "
-    mo "What kind of premonition supposed to be it"  
+    mo "What kind of premonition is that?" 
     ca "..."
     hide mfb_surprised at right 
     show mfb_neutral at right 
-    mo "With that dammed bug around here its not good time to try to undertand that"
+    mo "With that thing this close…"
+    mo "This isn't the moment to decipher omens."
     ca "..."
-    mo "Let's hurry, it's close to us, I can feel it"
-
+    mo "Move."
+    mo "It's close."
+    mo "The air is tightening."
+    "And time tightened around them like a fist."
+    
 
     scene ruins3
     with dissolve
     show mmb_angry
-    mo "We gotta take care"
-    mo "We are preparing a grave hole for you!"
+    mo "Stay behind me, Casiopeia."
+    mo "I've ended worse than you."
     hide mmb_angry
     show mmb_back
     pause 1.5
@@ -447,58 +518,66 @@ label ruins_way:
 
     scene ruins3
     with dissolve
+    play music "darkambient1.mp3" volume 0.1
     show mmb_angry at right with dissolve
     mo "Cover my back Casiopeia"
-    mo "Me encargare de este maldito bicho.."
     show grayg_mb_left at left with dissolve
-    gr "AGRRRRR!"
-    mo "Your time here its finished"
+    play sound "graygtalk1.mp3"
     gr "MOOOOOO-MOOOOOOOO"
     hide mmb_angry at right
     show mmb_surprised at right
-    mo "What that hell! Sounds like my name..."
-    gr "WE NEED...HELPPPP"
-    mo "No eres el mas grande que he enfrentado"
-    mo "Pero si el primero que puede hablar"
+    mo "What the hell…"
+    mo "That sounded like my name."
+    play sound "graygtalk2.mp3"
+    gr "WEEEE NEEEEED HEEELLLLLPPPPP"
+    mo "Such a violent spatial rupture… for something so small."
+    mo "You're not the largest I've faced."
+    mo "Not the most grotesque."
+    mo "But you are the first that speaks."
     hide mmb_surprised at right
     show mmb_angry at right
-    mo "Sus trucos baratos ya no asustan te libraran de tu castigo"
+    play sound "graygtalk1.mp3"
     gr "DOOON'T WANT FIGGHT..."
     gr "WEE NEEED SAAAVEE UNIVERSEEEE..."
     mo "I DON'T CARE!"
     hide mmb_angry at right
     show mmb_fight at right with dissolve
-    gr "LEEETT EEXXPLAAAAIINN!!"
+    play sound "graygtalk2.mp3"
+    gr "LEEEETT UUUUSSSS EEEEXXXPLAAAAAIIINNN"
     show grayg_mb_left at exit_left with dissolve
-    mo "I, see..." 
+    mo "I see, run..." 
     mo "You wanna make the hunt more interesting..."
     
 
     scene ruins5
     show grayg_fb_left at left with dissolve  
     show mfb_fight at right with dissolve
+    play sound "graygtalk2.mp3"
     gr "WEEEE NEEEEED THE ARTIFAAAAACTSSS"
-    mo "I don't care about you fucking cheap stuff"
-    mo "Your people playing with time broke the reality!"
-    mo "Kill everybody and full the planet with craters"
-    gr "JUUUUMP TO FIIIINDD A NEEEWWW GAAAATEE"
+    mo "They're not artifacts."
+    mo "They're scraps."
+    mo "Broken remnants of a world you already consumed."
+    play sound "graygtalk1.mp3"
+    gr "WEEE JUUUUMP TO FIIIINDD A NEEEWWW GAAAATEE"
     gr "OOOTTHEEERRR REALITY TOOO REEESTAARTT"
     hide mfb_fight at enter_right
     show mfb_surprised_swords at right 
     pause 1.5
     hide mfb_surprised_swords at right
     show mfb_neutral_swords at right
-    mo "Other reality?"
-    mo "Estan tratando de dejar atras el desastre que hicieron?"
-    mo "Y llevar el caos a otra realidad..."
-    gr "NOOO, JUUST RESTARRT"
-    gr "THIIIISS REALITY WAS CLAIMED FOOOORRRR SOMETHINGGG TOO MUCH POWERFULL"
-    gr "AAAAALLL UUSSS MUSSSSTTT GOOO NOOOWWWW"
+    mo "Another reality?"
+    mo "So you destroy one…"
+    mo "and escape to the next?"
+    play sound "graygtalk2.mp3"
+    gr "THIIIISSS RREEEAAALLLIIITTTYYY WAAASSS CLAAAIMMMED"
+    gr "FOOOORR SOOOMMMETHIIINGGG FAAAAR MOOOORE POWEEERFFFUUULLLL"
     hide mfb_neutral_swords at right
     show mfb_angry_swords at right
-    mo "I DON'T CARE!"
-    mo "No quiero escuchar nada mas"
+    mo "I don't care."
+    mo "You don't get redemption."
     scene black with dissolve
+    stop music fadeout 1.0
+
 
     play movie "images/backgrounds/momofight.webm"
     $ renpy.pause()
@@ -506,14 +585,22 @@ label ruins_way:
     with dissolve
 
     scene ruins5
+    play music "darkambient2.mp3" volume 0.1
     show grayg_hfb_left at left with dissolve
     show mfb_fight at right with dissolve
+    play sound "graygtalk1.mp3"
     gr "STOOOOPPP"
-    gr "NOOO TIIIIMEEEE"
-    gr "ITS COOOMMMIIINNNNG"
-    play sound "graytalk1.wav"
-    mo "Yes, your final is comming..."
-    mo "Again this strange sound"
+    gr "NOOOO TIIIIIMMMEEE LEEFFFTTT"
+    gr "ITTT IIISSS COOOMMMIIINNNGGGG"
+    mo "Yes."
+    mo "Your end is coming."
+    play sound "braams1.mp3" volume 2.0
+    pause 2.0
+    mo "That sound again…"
+    mo "It's not from them."
+    mo "It's deeper."
+
+    "And time screamed once more in an attempt to preserve itself."
     scene black with dissolve
 
     play movie "images/backgrounds/momonox.webm"
@@ -524,15 +611,19 @@ label ruins_way:
     with dissolve
     show grayg_hfb_left at left with dissolve
     show mfb_surprised_swords at right with dissolve
-    gr "III SSAAAAIIIDDDDD"
-    gr "ITS COOOMMMIIINNNNG"
-    mo "Que son estos simbolos"
+    play sound "graygtalk2.mp3"
+    gr "III SSSSAAAAAIIIDDDDD"
+    gr "ITTTT IIIIISSSS COOOMMMIIINNNGGGG"
+    mo "What are these symbols?"
+    mo "What did you do to my scroll?"
+    mo "What did you awaken?"
     hide mfb_surprised_swords at right
     show mfb_fight at right 
-    mo "Que magia usaste en mi pergamino maldito insecto?"
-    mo "TE VOY A DESTRUUUUIRRRR"
+    mo "I WILL END YOU."
     scene black 
     with dissolve
+    stop music fadeout 1.0
+
 
     play movie "images/backgrounds/finalscene.webm"
     $ renpy.pause()
@@ -540,6 +631,6 @@ label ruins_way:
 
     scene creditscene
     with dissolve
-
+    pause 30.0
 
     return

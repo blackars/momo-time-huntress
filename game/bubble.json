@@ -23,6 +23,41 @@
             135
         ]
     },
+    "go_to_castle_00fb4568_1": {
+        "area": [
+            880,
+            405,
+            160,
+            135
+        ],
+        "properties": "bottom_left"
+    },
+    "go_to_castle_00fb4568_2": {
+        "area": [
+            880,
+            405,
+            160,
+            135
+        ],
+        "properties": "bottom_left"
+    },
+    "go_to_castle_00fb4568_3": {
+        "area": [
+            880,
+            450,
+            160,
+            135
+        ]
+    },
+    "go_to_castle_01def26c": {
+        "area": [
+            800,
+            90,
+            480,
+            180
+        ],
+        "properties": "bottom_right"
+    },
     "go_to_castle_1928edcd": {
         "area": [
             400,
@@ -34,10 +69,61 @@
     },
     "go_to_castle_44bbdbc2": {
         "area": [
-            1280,
-            135,
+            1200,
+            90,
+            400,
+            270
+        ]
+    },
+    "go_to_castle_508ee521": {
+        "area": [
+            880,
+            90,
+            400,
+            180
+        ],
+        "properties": "bottom_right"
+    },
+    "go_to_castle_75a9597d": {
+        "area": [
+            1200,
+            180,
             400,
             225
+        ]
+    },
+    "go_to_castle_82788f87": {
+        "area": [
+            1040,
+            135,
+            320,
+            135
+        ],
+        "properties": "bottom_right"
+    },
+    "go_to_castle_8f221571": {
+        "area": [
+            960,
+            90,
+            320,
+            180
+        ],
+        "properties": "bottom_right"
+    },
+    "go_to_castle_9f503d9a": {
+        "area": [
+            720,
+            45,
+            560,
+            270
+        ]
+    },
+    "go_to_castle_b6245ff0": {
+        "area": [
+            880,
+            450,
+            160,
+            135
         ]
     },
     "go_to_castle_f5113c99": {
@@ -46,6 +132,24 @@
             270,
             320,
             135
+        ],
+        "properties": "bottom_right"
+    },
+    "go_to_castle_f7ffdcca": {
+        "area": [
+            960,
+            90,
+            400,
+            135
+        ],
+        "properties": "bottom_right"
+    },
+    "go_to_castle_feab986e": {
+        "area": [
+            880,
+            90,
+            400,
+            180
         ],
         "properties": "bottom_right"
     },
@@ -125,6 +229,162 @@
         "area": [
             1200,
             135,
+            400,
+            180
+        ]
+    },
+    "ruins_way_095c1a91": {
+        "area": [
+            960,
+            135,
+            400,
+            180
+        ]
+    },
+    "ruins_way_261b5e46": {
+        "area": [
+            960,
+            90,
+            480,
+            315
+        ]
+    },
+    "ruins_way_35abdc9f": {
+        "area": [
+            720,
+            45,
+            480,
+            225
+        ]
+    },
+    "ruins_way_4d7ba7bf": {
+        "area": [
+            720,
+            45,
+            560,
+            315
+        ]
+    },
+    "ruins_way_520209c9": {
+        "area": [
+            1040,
+            180,
+            320,
+            180
+        ],
+        "properties": "bottom_right"
+    },
+    "ruins_way_7a47fe48": {
+        "area": [
+            720,
+            45,
+            400,
+            180
+        ]
+    },
+    "ruins_way_98a4242d": {
+        "area": [
+            720,
+            45,
+            560,
+            225
+        ]
+    },
+    "ruins_way_a0e856b4": {
+        "area": [
+            800,
+            90,
+            480,
+            180
+        ],
+        "properties": "bottom_right"
+    },
+    "ruins_way_a3051e05": {
+        "area": [
+            960,
+            135,
+            400,
+            180
+        ],
+        "properties": "bottom_right"
+    },
+    "ruins_way_a3058e62": {
+        "area": [
+            960,
+            135,
+            400,
+            270
+        ]
+    },
+    "ruins_way_b0592e8d": {
+        "area": [
+            960,
+            135,
+            480,
+            225
+        ]
+    },
+    "ruins_way_b8189388": {
+        "area": [
+            880,
+            90,
+            480,
+            225
+        ]
+    },
+    "ruins_way_bb24a866": {
+        "area": [
+            1040,
+            135,
+            400,
+            180
+        ]
+    },
+    "ruins_way_c230727d": {
+        "area": [
+            960,
+            45,
+            480,
+            270
+        ]
+    },
+    "ruins_way_e0f43161": {
+        "area": [
+            720,
+            90,
+            560,
+            90
+        ]
+    },
+    "ruins_way_e8e673cb": {
+        "area": [
+            880,
+            135,
+            480,
+            180
+        ],
+        "properties": "bottom_right"
+    },
+    "ruins_way_ed3f3a47": {
+        "area": [
+            720,
+            45,
+            480,
+            180
+        ]
+    },
+    "ruins_way_ed3f3a47_1": {
+        "area": [
+            720,
+            90,
+            560,
+            180
+        ]
+    },
+    "ruins_way_ed4919d3": {
+        "area": [
+            960,
+            90,
             400,
             180
         ]
