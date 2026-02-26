@@ -11,7 +11,7 @@
 
 label start:
 
-  # continúa al label principal
+# continúa al label principal
     play movie "images/backgrounds/forest1.webm"
     $ renpy.pause()   # espera hasta que el video termine
     stop movie
@@ -21,14 +21,14 @@ label start:
     
     scene forest2
     with dissolve
-    play music "forestambient1.mp3" volume 0.35
+    play music "forestambient.mp3" volume 0.35
     show mfb_back with dissolve
     mo "Beautiful place..."
     hide mfb_back
     show mfb_neutral with dissolve
-    mo "Come on, Casiopeia…"
+    mo "Come on, Casiopeia..."
     mo "At least pretend you're impressed."
-    mo "Even you must feel it — the air is different here."
+    mo "Even you must feel it, the air is different here."
     hide mfb_neutral with dissolve
     show mfb_back with dissolve 
     scene black with dissolve
@@ -37,11 +37,11 @@ label start:
     with dissolve
     show mmb_back with dissolve
     mo "..."
-    mo "It's too beautiful… it makes me uneasy."
+    mo "It's too beautiful...it makes me uneasy."
     mo "..."
     mo "From the road, we should be able to see the castle."    
     mo "I found a shorter path down this slope."
-    mo "Steep… but faster."
+    mo "Steep...but faster."
     mo "And we don't have time to waste."
     scene black with dissolve
     stop music fadeout 1.0
@@ -56,10 +56,10 @@ label start:
 
     scene forest5
     with dissolve
-    play music "forestambient1.mp3" volume 0.35
+    play music "forestambient.mp3" volume 0.35
     show mfb_back with dissolve
     mo "If we keep this pace, we'll reach the valley before nightfall."
-    mo "You always slow down when I get excited…"
+    mo "You always slow down when I get excited..."
     hide mfb_back 
     show mfb_neutral 
     mo "We still have a long road ahead of us."
@@ -67,12 +67,12 @@ label start:
     show mfb_smile 
     mo "We'll sit under the moonlight."
     mo "I'll make a fire."
-    mo "For a moment… we'll almost feel safe."
+    mo "For a moment...we'll almost feel safe."
     hide mfb_smile 
     show mfb_back 
     hide mfb_back 
     show mfb_neutral 
-    mo "Come on, Casiopeia…"
+    mo "Come on, Casiopeia..."
     mo "I'll catch something for you."
     mo "You pretend not to care, but I know you're hungry."
     show cas_right at enter_right with dissolve
@@ -82,32 +82,32 @@ label start:
 
     scene forest6
     with dissolve
-    show mmb_neutral with dissolve
-    mo "This road… it feels like the one from my dream."
+    show mmb_neutral at left with dissolve
+    mo "This road...it feels like the one from my dream."
     mo "I wonder where it truly leads."
-    hide mmb_neutral
-    show mmb_smile
+    hide mmb_neutral at left
+    show mmb_smile at left
     mo "What do you think?"
-    show cas_right at enter_right with dissolve
+    show cas_mb_right at enter_right with dissolve
     ca "..."
-    hide mmb_smile
-    show mmb_neutral
+    hide mmb_smile at left
+    show mmb_neutral at left
     mo "You think so?"
     ca "..."    
     mo "Why would you say that?"
     ca "..."
     mo "Then we must hurry up..."
     hide mmb_neutral with dissolve
-    hide cas_right with dissolve
+    hide cas_mb_right with dissolve
     scene black with dissolve
 
 
     scene forest7
     with dissolve
-    "... and many times blah bla blah"
+    "... and often, time passes without us realizing what it has in store for us."
     show mfb_neutral with dissolve
     show cas_right at enter_right with dissolve
-    mo "I have this strange sense of déjà vu…"
+    mo "I have this strange sense of déjà vu..."
     mo "As if the forest remembers me."
     ca "..."
     mo "I'm certain I've stood here before."
@@ -155,7 +155,7 @@ label start:
     hide mmb_back 
     show mmb_neutral
     mo "What do you think?"
-    mo "Should we rest… or keep moving?"
+    mo "Should we rest...or keep moving?"
 
 
     menu:
@@ -181,7 +181,7 @@ label start:
         mo "About where it all began."
         hide mmb_smile at left
         show mmb_neutral at left
-        mo "Somewhere in those pages…"
+        mo "Somewhere in those pages..."
         mo "There must be a flaw."
         mo "Every machine has one."
         hide mmb_neutral at left
@@ -229,7 +229,7 @@ label start:
 
         scene ruins1
         with dissolve 
-        play music "darkambient2.mp3" volume 0.1
+        play music "darkambient.mp3" volume 0.1
         show mmb_angry with dissolve
         mo "It's time..."
 
@@ -260,7 +260,7 @@ label start:
         with dissolve
         show mfb_surprised at right with dissolve
         show cas_left at left with dissolve 
-        mo "Those symbols…"
+        mo "Those symbols..."
         mo "You've never drawn them before."
         ca "..."
         mo "Are you okay?"
@@ -271,7 +271,7 @@ label start:
         ca "..."
         hide mfb_surprised at right
         show mfb_neutral at right
-        mo "With that cursed thing nearby…"
+        mo "With that cursed thing nearby..."
         mo "This isn't the time to unravel riddles."
         ca "..."
         mo "We need to move."
@@ -336,7 +336,7 @@ label start:
         with dissolve
         show mmb_angry at left 
         show cas_mb_right at enter_right with dissolve 
-        mo "That sound…"
+        mo "That sound..."
         mo "They're never late."
         mo "Never early."
         mo "Always exactly when something begins to matter."
@@ -358,7 +358,8 @@ label start:
 label river_way:
     scene forest11
     with dissolve
-    ############## RIVER SOUNDS
+    stop music fadeout 1.0
+    play music "riversound.mp3" volume 0.35
     show mmb_neutral with dissolve
     mo "The river will wash our scent away."
     mo "They track patterns."
@@ -369,7 +370,7 @@ label river_way:
     mo "Stay close, Casiopeia."
     hide mmb_neutral 
     show mmb_smile
-    mo "And yes…"
+    mo "And yes..."
     mo "This time you're actually going to fish."
     mo "We'll need the strength."
     hide mmb_smile with dissolve
@@ -377,7 +378,8 @@ label river_way:
 
     scene river1
     with dissolve
-    #RIVER SOUNDS
+    stop music fadeout 3.0
+    play music "riversound.mp3" volume 0.35
     show mmb_neutral at enter_left with dissolve
     show cas_mb_rigth at enter_right with dissolve
     mo "Following the riverbed will hide our scent and swallow our footsteps."
@@ -390,12 +392,13 @@ label river_way:
     mo "They don't hunt like beasts."
     mo "They calculate."
     mo "We'll approach from behind."
+    scene black with dissolve
 
     scene river3
     with dissolve
     show mmb_neutral at enter_left with dissolve
     show cas_mb_rigth at enter_right with dissolve
-    mo "Casiopeia… do you feel that?"
+    mo "Casiopeia...do you feel that?"
     mo "The vibration in the air."
     mo "It wasn't like this before."
     ca "..."
@@ -405,9 +408,14 @@ label river_way:
     mo "They're escalating."
     mo "Come on, stay close."
     ca "..."
+    scene black with dissolve
+
+    
 
     scene ruins7
     with dissolve
+    stop music fadeout 3.0
+    play music "darkambient.mp3" volume 0.1
     show mmb_neutral at enter_left with dissolve
     show cas_mb_rigth at enter_right with dissolve
     mo "Here we go again, Casiopeia."
@@ -417,6 +425,8 @@ label river_way:
     ca "..."
     mo "It almost looks like home."
     mo "That's what worries me."
+    scene black with dissolve
+
 
     scene ruins8
     with dissolve
@@ -436,11 +446,12 @@ label river_way:
     "Time leaves traces in its passing."
     "And in its passing, we beg it for mercy."
     "But time does not negotiate."
+    scene black with dissolve
 
     scene ruins9
     with dissolve
-    show mmb_neutral at enter_left with dissolve
-    show cas_mb_rigth at enter_right with dissolve
+    show mmb_neutral at left with dissolve
+    show cas_mb_right at right with dissolve
     mo "What do you think about the arrival sound?"
     ca "..."
     mo "It was the strongest I've heard."
@@ -452,12 +463,14 @@ label river_way:
     mo "They are breaking direction."
     mo "Breaking sequence."
     mo "Breaking meaning."
+    scene black with dissolve
+
 
 
     scene ruins6
     with dissolve
     show mfb_neutral at right with dissolve
-    show cas_left at enter_left with dissolve
+    show cas_left at left with dissolve
     mo "Come on Casiopeia..."
     mo "I can smell it from here..."
     ca "..."
@@ -474,8 +487,8 @@ label river_way:
     with dissolve
     show mfb_surprised at right with dissolve
     show cas_left at left with dissolve 
-    mo "Those symbols…"
-    mo "You never trace them unless something is wrong."
+    mo "Those symbols..."
+    mo "You never trace them before."
     ca "..."
     mo "Are you okay?"
     mo "What was that?"
@@ -484,13 +497,16 @@ label river_way:
     ca "..."
     hide mfb_surprised at right 
     show mfb_neutral at right 
-    mo "With that thing this close…"
+    mo "With that thing this close..."
     mo "This isn't the moment to decipher omens."
     ca "..."
     mo "Move."
     mo "It's close."
     mo "The air is tightening."
-    "And time tightened around them like a fist."
+    "Hunting the monster together..." 
+    "while time tightened around them like a fist"
+    "the most dangerous beast of all."
+    scene black with dissolve
     
 
     scene ruins3
@@ -505,10 +521,6 @@ label river_way:
     jump ruins_way
 
 
-
-
-
-
 label ruins_way:
 
     play movie "images/backgrounds/ruins4.webm"
@@ -518,7 +530,7 @@ label ruins_way:
 
     scene ruins3
     with dissolve
-    play music "darkambient1.mp3" volume 0.1
+    play music "darkambient.mp3" volume 0.1
     show mmb_angry at right with dissolve
     mo "Cover my back Casiopeia"
     show grayg_mb_left at left with dissolve
@@ -526,11 +538,11 @@ label ruins_way:
     gr "MOOOOOO-MOOOOOOOO"
     hide mmb_angry at right
     show mmb_surprised at right
-    mo "What the hell…"
+    mo "What the hell..."
     mo "That sounded like my name."
     play sound "graygtalk2.mp3"
     gr "WEEEE NEEEEED HEEELLLLLPPPPP"
-    mo "Such a violent spatial rupture… for something so small."
+    mo "Such a violent spatial rupture...for something so small."
     mo "You're not the largest I've faced."
     mo "Not the most grotesque."
     mo "But you are the first that speaks."
@@ -547,6 +559,7 @@ label ruins_way:
     show grayg_mb_left at exit_left with dissolve
     mo "I see, run..." 
     mo "You wanna make the hunt more interesting..."
+    scene black with dissolve
     
 
     scene ruins5
@@ -566,7 +579,7 @@ label ruins_way:
     hide mfb_surprised_swords at right
     show mfb_neutral_swords at right
     mo "Another reality?"
-    mo "So you destroy one…"
+    mo "So you destroy one..."
     mo "and escape to the next?"
     play sound "graygtalk2.mp3"
     gr "THIIIISSS RREEEAAALLLIIITTTYYY WAAASSS CLAAAIMMMED"
@@ -585,7 +598,7 @@ label ruins_way:
     with dissolve
 
     scene ruins5
-    play music "darkambient2.mp3" volume 0.1
+    play music "darkambient.mp3" volume 0.1
     show grayg_hfb_left at left with dissolve
     show mfb_fight at right with dissolve
     play sound "graygtalk1.mp3"
@@ -596,9 +609,10 @@ label ruins_way:
     mo "Your end is coming."
     play sound "braams1.mp3" volume 2.0
     pause 2.0
-    mo "That sound again…"
+    mo "That sound again..."
     mo "It's not from them."
     mo "It's deeper."
+    scene black with dissolve
 
     "And time screamed once more in an attempt to preserve itself."
     scene black with dissolve
@@ -631,6 +645,6 @@ label ruins_way:
 
     scene creditscene
     with dissolve
-    pause 30.0
+    pause 60.0
 
     return
