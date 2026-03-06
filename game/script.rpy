@@ -505,9 +505,9 @@ label river_way:
     mo "The air is tightening."
     "Hunting the monster together..." 
     "while time tightened around them like a fist"
-    "the most dangerous beast of all."adsad
+    "the most dangerous beast of all."
     scene black with dissolve
-    
+    sasas
 
     scene ruins3
     with dissolve
