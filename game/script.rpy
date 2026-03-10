@@ -507,7 +507,7 @@ label river_way:
     "while time tightened around them like a fist"
     "the most dangerous beast of all."
     scene black with dissolve
-    sasas
+    
 
     scene ruins3
     with dissolve
