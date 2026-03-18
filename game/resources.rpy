@@ -82,9 +82,7 @@ image finalscene = "images/backgrounds/finalscene.webm"
 image creditscene = "images/backgrounds/creditscene.webp"
 
 
-
 ### MUSIC AND SOUND DEFINITIONS
-
 
 define graygtalk1 = "audio/graygtalk1.mp3"
 define graygtalk2 = "audio/graygtalk2.mp3"
@@ -104,12 +102,6 @@ define river2 = "audio/music river 2.mp3"
 define darkambient1 = "audio/music dark ambient 1.mp3"
 define darkambient2 = "audio/music dark ambient 2.mp3"
 define forestambient1 = "audio/forestambient1.mp3"
-
-
-
-
-
-
 
 
 # ANIMATIONS DEFINITIONS 
@@ -147,9 +139,6 @@ transform exit_right:
     linear 1.0 xalign 1.5   # en 1 segundo se mueve fuera de la pantalla por la derecha
 
 
-
 transform bubble_follow(char_xalign):
     xalign char_xalign
     yalign 0.0
-
-# FIRE SCENE INTERACTIVE
