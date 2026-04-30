@@ -41,7 +41,7 @@
     },
     "go_to_castle_00fb4568": {
         "area": [
-            1440,
+            960,
             450,
             160,
             135
@@ -91,6 +91,15 @@
         ],
         "properties": "bottom_right"
     },
+    "go_to_castle_1e43a1f2": {
+        "area": [
+            800,
+            45,
+            560,
+            225
+        ],
+        "properties": "bottom_right"
+    },
     "go_to_castle_44bbdbc2": {
         "area": [
             1200,
@@ -98,6 +107,15 @@
             400,
             270
         ]
+    },
+    "go_to_castle_49caf48d": {
+        "area": [
+            880,
+            90,
+            480,
+            180
+        ],
+        "properties": "bottom_right"
     },
     "go_to_castle_508ee521": {
         "area": [
@@ -149,6 +167,23 @@
             160,
             135
         ]
+    },
+    "go_to_castle_bb6d36f3": {
+        "area": [
+            880,
+            45,
+            480,
+            270
+        ]
+    },
+    "go_to_castle_e89d2667": {
+        "area": [
+            880,
+            90,
+            480,
+            225
+        ],
+        "properties": "bottom_right"
     },
     "go_to_castle_f5113c99": {
         "area": [
@@ -228,9 +263,17 @@
     "no_build_fire_42d85b1a": {
         "area": [
             1200,
-            135,
-            320,
-            135
+            90,
+            400,
+            180
+        ]
+    },
+    "no_build_fire_73bd8b90": {
+        "area": [
+            1200,
+            90,
+            560,
+            180
         ]
     },
     "read_story_3b672bf1": {
@@ -464,9 +507,9 @@
     },
     "ruins_way_35abdc9f": {
         "area": [
-            720,
+            560,
             45,
-            480,
+            640,
             270
         ]
     },
@@ -555,10 +598,10 @@
     },
     "ruins_way_98a4242d": {
         "area": [
-            720,
+            640,
             45,
-            560,
-            225
+            640,
+            315
         ]
     },
     "ruins_way_a0e856b4": {
@@ -654,10 +697,10 @@
     },
     "ruins_way_c7a5dbc9": {
         "area": [
-            880,
+            720,
             135,
-            480,
-            225
+            720,
+            270
         ]
     },
     "ruins_way_e0f43161": {
@@ -706,7 +749,7 @@
             640,
             45,
             640,
-            225
+            270
         ]
     },
     "start_00fb4568": {
@@ -931,9 +974,9 @@
     "start_efe206d4": {
         "area": [
             640,
-            135,
-            320,
-            225
+            90,
+            400,
+            270
         ]
     }
 }
