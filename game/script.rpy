@@ -381,14 +381,14 @@ label river_way:
     stop music fadeout 3.0
     play music "riversound.mp3" volume 0.35
     show mmb_neutral at enter_left with dissolve
-    show cas_mb_rigth at enter_right with dissolve
+    show cas_mb_right at enter_right with dissolve
     mo "Following the riverbed will hide our scent and swallow our footsteps."
     mo "The cold water confuses their patterns."
 
     scene river2
     with dissolve
     show mmb_neutral at enter_left with dissolve
-    show cas_mb_rigth at enter_right with dissolve
+    show cas_mb_right at enter_right with dissolve
     mo "They don't hunt like beasts."
     mo "They calculate."
     mo "We'll approach from behind."
@@ -397,7 +397,7 @@ label river_way:
     scene river3
     with dissolve
     show mmb_neutral at enter_left with dissolve
-    show cas_mb_rigth at enter_right with dissolve
+    show cas_mb_right at enter_right with dissolve
     mo "Casiopeia...do you feel that?"
     mo "The vibration in the air."
     mo "It wasn't like this before."
@@ -417,7 +417,7 @@ label river_way:
     stop music fadeout 3.0
     play music "darkambient.mp3" volume 0.1
     show mmb_neutral at enter_left with dissolve
-    show cas_mb_rigth at enter_right with dissolve
+    show cas_mb_right at enter_right with dissolve
     mo "Here we go again, Casiopeia."
     mo "These are only forest ruins."
     mo "An old castle swallowed by moss and silence."
@@ -533,7 +533,7 @@ label ruins_way:
     play music "darkambient.mp3" volume 0.1
     show mmb_angry at right with dissolve
     mo "Cover my back Casiopeia"
-    show grayg_mb_left at left with dissolve
+    show grayg_mb at left with dissolve
     play sound "graygtalk1.mp3"
     gr "MOOOOOO-MOOOOOOOO"
     hide mmb_angry at right
@@ -556,14 +556,14 @@ label ruins_way:
     show mmb_fight at right with dissolve
     play sound "graygtalk2.mp3"
     gr "LEEEETT UUUUSSSS EEEEXXXPLAAAAAIIINNN"
-    show grayg_mb_left at exit_left with dissolve
+    show grayg_mb at exit_left with dissolve
     mo "I see, run..." 
     mo "You wanna make the hunt more interesting..."
     scene black with dissolve
     
 
     scene ruins5
-    show grayg_fb_left at left with dissolve  
+    show grayg_fb at left with dissolve  
     show mfb_fight at right with dissolve
     play sound "graygtalk2.mp3"
     gr "WEEEE NEEEEED THE ARTIFAAAAACTSSS"
@@ -599,7 +599,7 @@ label ruins_way:
 
     scene ruins5
     play music "darkambient.mp3" volume 0.1
-    show grayg_hfb_left at left with dissolve
+    show grayg_hfb at left with dissolve
     show mfb_fight at right with dissolve
     play sound "graygtalk1.mp3"
     gr "STOOOOPPP"
@@ -623,7 +623,7 @@ label ruins_way:
 
     scene ruins5
     with dissolve
-    show grayg_hfb_left at left with dissolve
+    show grayg_hfb at left with dissolve
     show mfb_surprised_swords at right with dissolve
     play sound "graygtalk2.mp3"
     gr "III SSSSAAAAAIIIDDDDD"

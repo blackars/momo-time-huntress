@@ -12,38 +12,36 @@ define book = Character(None, kind=nvl)
 
 # IMAGE DEFINITIONS 
 ## MOMO
-image mfb_neutral = "images/sprites/momo/momo_fb_neutral.png"
-image mfb_smile = "images/sprites/momo/momo_fb_smile.png"
-image mfb_surprised = "images/sprites/momo/momo_fb_surprised.png"
-image mfb_back = "images/sprites/momo/momo_fb_back.png"
-image mfb_fight = "images/sprites/momo/momo_fb_fight.png"
-image mfb_surprised_swords = "images/sprites/momo/momo_fb_surprised_sowrds.png"
-image mfb_angry_swords = "images/sprites/momo/momo_fb_angry_swords.png"
-image mfb_neutral_swords = "images/sprites/momo/momo_fb_neutral_swords.png"
+image mfb_neutral = "images/sprites/momo/momo_fb_neutral.webp"
+image mfb_smile = "images/sprites/momo/momo_fb_smile.webp"
+image mfb_surprised = "images/sprites/momo/momo_fb_surprised.webp"
+image mfb_back = "images/sprites/momo/momo_fb_back.webp"
+image mfb_fight = "images/sprites/momo/momo_fb_fight.webp"
+image mfb_surprised_swords = "images/sprites/momo/momo_fb_surprised_sowrds.webp"
+image mfb_angry_swords = "images/sprites/momo/momo_fb_angry_swords.webp"
+image mfb_neutral_swords = "images/sprites/momo/momo_fb_neutral_swords.webp"
 
 
-image mmb_neutral = "images/sprites/momo/momo_mb_neutral.png"
-image mmb_smile = "images/sprites/momo/momo_mb_smile.png"
-image mmb_angry = "images/sprites/momo/momo_mb_angry.png"
-image mmb_surprised = "images/sprites/momo/momo_mb_surprised.png"
-image mmb_back = "images/sprites/momo/momo_mb_back.png"
-image mmb_fight = "images/sprites/momo/momo_mb_fight.png"
+image mmb_neutral = "images/sprites/momo/momo_mb_neutral.webp"
+image mmb_smile = "images/sprites/momo/momo_mb_smile.webp"
+image mmb_angry = "images/sprites/momo/momo_mb_angry.webp"
+image mmb_surprised = "images/sprites/momo/momo_mb_surprised.webp"
+image mmb_back = "images/sprites/momo/momo_mb_back.webp"
+image mmb_fight = "images/sprites/momo/momo_mb_fight.webp"
 
 ## CASIOPEIA
-image cas_right = "images/sprites/casiopeia/cas_right.png"
-image cas_left = "images/sprites/casiopeia/cas_left.png"
-image cas_mb_right = "images/sprites/casiopeia/cas_mb_right.png"
-image cas_mb_left = "images/sprites/casiopeia/cas_mb_left.png"
+image cas_right = "images/sprites/casiopeia/cas_right.webp"
+image cas_left = "images/sprites/casiopeia/cas_left.webp"
+image cas_mb_right = "images/sprites/casiopeia/cas_mb_right.webp"
+image cas_mb_left = "images/sprites/casiopeia/cas_mb_left.webp"
 
 
 ## GRAY GENTLEMA ANOMALY
-image grayg_fb = "images/sprites/grayg/grayg_fb.png"
-image grayg_fb_left = "images/sprites/grayg/grayg_fb_left.png"
-image grayg_fb_right = "images/sprites/grayg/grayg_fb_right.png"
-# image grayg_idle = "images/sprites/grayg/grayg_idle.png"
-image grayg_mb = "images/sprites/grayg/grayg_mb.png"
-image grayg_mb_left = "images/sprites/grayg/grayg_mb_left.png"
-image grayg_mb_right = "images/sprites/grayg/grayg_mb_right.png"
+image grayg_fb = "images/sprites/grayg/grayg_fb_left.webp"
+image grayg_mb = "images/sprites/grayg/grayg_mb_left.webp"
+image grayg_hmb = "images/sprites/grayg/grayg_hmb_left.webp"
+image grayg_hfb = "images/sprites/grayg/grayg_hfb_left.webp"
+
 
 
 
