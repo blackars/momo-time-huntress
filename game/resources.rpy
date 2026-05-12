@@ -14,13 +14,11 @@ define book = Character(None, kind=nvl)
 ## MOMO
 image mfb_neutral = "images/sprites/momo/momo_fb_neutral.png"
 image mfb_smile = "images/sprites/momo/momo_fb_smile.png"
-image mfb_angry = "images/sprites/momo/momo_fb_angry.png"
 image mfb_surprised = "images/sprites/momo/momo_fb_surprised.png"
 image mfb_back = "images/sprites/momo/momo_fb_back.png"
 image mfb_fight = "images/sprites/momo/momo_fb_fight.png"
 image mfb_surprised_swords = "images/sprites/momo/momo_fb_surprised_sowrds.png"
 image mfb_angry_swords = "images/sprites/momo/momo_fb_angry_swords.png"
-image mfb_smile_swords = "images/sprites/momo/momo_fb_smile_swords.png"
 image mfb_neutral_swords = "images/sprites/momo/momo_fb_neutral_swords.png"
 
 
