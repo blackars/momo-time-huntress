@@ -21,7 +21,7 @@ label start:
     
     scene forest2
     with dissolve
-    play music "forestambient.mp3" volume 0.35
+    play music "forestambient.ogg" volume 0.35
     show mfb_back with dissolve
     mo "Beautiful place..."
     hide mfb_back
@@ -56,7 +56,7 @@ label start:
 
     scene forest5
     with dissolve
-    play music "forestambient.mp3" volume 0.35
+    play music "forestambient.ogg" volume 0.35
     show mfb_back with dissolve
     mo "If we keep this pace, we'll reach the valley before nightfall."
     mo "You always slow down when I get excited..."
@@ -229,7 +229,7 @@ label start:
 
         scene ruins1
         with dissolve 
-        play music "darkambient.mp3" volume 0.1
+        play music "darkambient.ogg" volume 0.1
         show mmb_angry with dissolve
         mo "It's time..."
 
@@ -359,7 +359,7 @@ label river_way:
     scene forest11
     with dissolve
     stop music fadeout 1.0
-    play music "riversound.mp3" volume 0.35
+    play music "riversound.ogg" volume 0.35
     show mmb_neutral with dissolve
     mo "The river will wash our scent away."
     mo "They track patterns."
@@ -379,7 +379,7 @@ label river_way:
     scene river1
     with dissolve
     stop music fadeout 3.0
-    play music "riversound.mp3" volume 0.35
+    play music "riversound.ogg" volume 0.35
     show mmb_neutral at enter_left with dissolve
     show cas_mb_right at enter_right with dissolve
     mo "Following the riverbed will hide our scent and swallow our footsteps."
@@ -415,7 +415,7 @@ label river_way:
     scene ruins7
     with dissolve
     stop music fadeout 3.0
-    play music "darkambient.mp3" volume 0.1
+    play music "darkambient.ogg" volume 0.1
     show mmb_neutral at enter_left with dissolve
     show cas_mb_right at enter_right with dissolve
     mo "Here we go again, Casiopeia."
@@ -431,7 +431,7 @@ label river_way:
     scene ruins8
     with dissolve
     show mmb_neutral at right with dissolve
-    mo "I wonder what strange object it came to harvest this time."
+    mo "I wonder what strange object it came to find this time."
     ca "..."
     mo "At first, it was random debris."
     mo "Broken tools. Rusted fragments."
@@ -530,17 +530,17 @@ label ruins_way:
 
     scene ruins3
     with dissolve
-    play music "darkambient.mp3" volume 0.1
+    play music "darkambient.ogg" volume 0.1
     show mmb_angry at right with dissolve
     mo "Cover my back Casiopeia"
     show grayg_mb at left with dissolve
-    play sound "graygtalk1.mp3"
+    play sound "graygtalk1.ogg"
     gr "MOOOOOO-MOOOOOOOO"
     hide mmb_angry at right
     show mmb_surprised at right
     mo "What the hell..."
     mo "That sounded like my name."
-    play sound "graygtalk2.mp3"
+    play sound "graygtalk2.ogg"
     gr "WEEEE NEEEEED HEEELLLLLPPPPP"
     mo "Such a violent spatial rupture...for something so small."
     mo "You're not the largest I've faced."
@@ -548,13 +548,13 @@ label ruins_way:
     mo "But you are the first that speaks."
     hide mmb_surprised at right
     show mmb_angry at right
-    play sound "graygtalk1.mp3"
+    play sound "graygtalk1.ogg"
     gr "DOOON'T WANT FIGGHT..."
     gr "WEE NEEED SAAAVEE UNIVERSEEEE..."
     mo "I DON'T CARE!"
     hide mmb_angry at right
     show mmb_fight at right with dissolve
-    play sound "graygtalk2.mp3"
+    play sound "graygtalk2.ogg"
     gr "LEEEETT UUUUSSSS EEEEXXXPLAAAAAIIINNN"
     show grayg_mb at exit_left with dissolve
     mo "I see, run..." 
@@ -565,12 +565,12 @@ label ruins_way:
     scene ruins5
     show grayg_fb at left with dissolve  
     show mfb_fight at right with dissolve
-    play sound "graygtalk2.mp3"
+    play sound "graygtalk2.ogg"
     gr "WEEEE NEEEEED THE ARTIFAAAAACTSSS"
     mo "They're not artifacts."
     mo "They're scraps."
     mo "Broken remnants of a world you already consumed."
-    play sound "graygtalk1.mp3"
+    play sound "graygtalk1.ogg"
     gr "WEEE JUUUUMP TO FIIIINDD A NEEEWWW GAAAATEE"
     gr "OOOTTHEEERRR REALITY TOOO REEESTAARTT"
     hide mfb_fight at enter_right
@@ -581,7 +581,7 @@ label ruins_way:
     mo "Another reality?"
     mo "So you destroy one..."
     mo "and escape to the next?"
-    play sound "graygtalk2.mp3"
+    play sound "graygtalk2.ogg"
     gr "THIIIISSS RREEEAAALLLIIITTTYYY WAAASSS CLAAAIMMMED"
     gr "FOOOORR SOOOMMMETHIIINGGG FAAAAR MOOOORE POWEEERFFFUUULLLL"
     hide mfb_neutral_swords at right
@@ -598,16 +598,16 @@ label ruins_way:
     with dissolve
 
     scene ruins5
-    play music "darkambient.mp3" volume 0.1
+    play music "darkambient.ogg" volume 0.1
     show grayg_hfb at left with dissolve
     show mfb_fight at right with dissolve
-    play sound "graygtalk1.mp3"
+    play sound "graygtalk1.ogg"
     gr "STOOOOPPP"
     gr "NOOOO TIIIIIMMMEEE LEEFFFTTT"
     gr "ITTT IIISSS COOOMMMIIINNNGGGG"
     mo "Yes."
     mo "Your end is coming."
-    play sound "braams1.mp3" volume 2.0
+    play sound "braams1.ogg" volume 2.0
     pause 2.0
     mo "That sound again..."
     mo "It's not from them."
@@ -625,7 +625,7 @@ label ruins_way:
     with dissolve
     show grayg_hfb at left with dissolve
     show mfb_surprised_swords at right with dissolve
-    play sound "graygtalk2.mp3"
+    play sound "graygtalk2.ogg"
     gr "III SSSSAAAAAIIIDDDDD"
     gr "ITTTT IIIIISSSS COOOMMMIIINNNGGGG"
     mo "What are these symbols?"

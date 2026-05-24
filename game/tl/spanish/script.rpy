@@ -934,7 +934,7 @@ translate spanish river_way_dcf861a2:
 translate spanish river_way_02148c19:
 
     # mo "Come on, stay close."
-    mo ""
+    mo "Vamos, mantente cerca."
 
 # game/script.rpy:410
 translate spanish river_way_00fb4568_1:
@@ -987,8 +987,8 @@ translate spanish river_way_c0ca582c:
 # game/script.rpy:434
 translate spanish river_way_3f107051:
 
-    # mo "I wonder what strange object it came to harvest this time."
-    mo "Me pregunto qué extraño objeto vino a cosechar esta vez."
+    # mo "I wonder what strange object it came to find this time."
+    mo "Me pregunto qué extraño objeto vino a buscar esta vez."
 
 # game/script.rpy:435
 translate spanish river_way_00fb4568_3:
@@ -1144,7 +1144,7 @@ translate spanish river_way_ef36d1ba:
 translate spanish river_way_73bd8b90:
 
     # mo "Come on Casiopeia..."
-    mo ""
+    mo "Vamos Casiopeia..."
 
 # game/script.rpy:475
 translate spanish river_way_feab986e:
@@ -1510,7 +1510,7 @@ translate spanish ruins_way_9c655001:
 translate spanish ruins_way_a663481b:
 
     # gr "III SSSSAAAAAIIIDDDDD"
-    gr "DDIIIIJJJEEEEE"
+    gr "TTEEE LLLOOO DDIIIIJJJEEEEE"
 
 # game/script.rpy:630
 translate spanish ruins_way_bc3e367f:

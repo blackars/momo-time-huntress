@@ -4,7 +4,7 @@
 
 define mo = Character(None, kind=bubble, image="mfb_neutral")
 define ca = Character(None, kind=bubble, image="cas_right")
-define gr = Character(None, kind=bubble, image="grayg_idle")
+define gr = Character(None, kind=bubble, image="grayg_fb")
 
 define book = Character(None, kind=nvl)
 
@@ -47,10 +47,8 @@ image grayg_hfb = "images/sprites/grayg/grayg_hfb_left.webp"
 
 # BACKGROUND DEFINITIONS 
 
-image forest1 = "images/backgrounds/forest1.webm"
 image forest2 = "images/backgrounds/forest2.webp"
 image forest3 = "images/backgrounds/forest3.webp"
-image forest4 = "images/backgrounds/forest4.webm"
 image forest5 = "images/backgrounds/forest5.webp"
 image forest6 = "images/backgrounds/forest6.webp"
 image forest7 = "images/backgrounds/forest7.webp"
@@ -64,59 +62,14 @@ image river3 = "images/backgrounds/river3.webp"
 image ruins1 = "images/backgrounds/ruins1.webp"
 image ruins2 = "images/backgrounds/ruins2.webp"
 image ruins3 = "images/backgrounds/ruins3.webp"
-image ruins4 = "images/backgrounds/ruins4.webm"
 image ruins5 = "images/backgrounds/ruins5.webp"
 image ruins6 = "images/backgrounds/ruins6.webp"
 image ruins7 = "images/backgrounds/ruins7.webp"
 image ruins8 = "images/backgrounds/ruins8.webp"
 image ruins9 = "images/backgrounds/ruins9.webp"
 
-image momonox = "images/backgrounds/momonox.webm"
-image graygshout = "images/backgrounds/graygshout.webm"
-image casnox = "images/backgrounds/casnox.webm"
-image finalscene = "images/backgrounds/finalscene.webm"
 image creditscene = "images/backgrounds/creditscene.webp"
-
-
-### MUSIC AND SOUND DEFINITIONS
-
-define graygtalk1 = "audio/graygtalk1.mp3"
-define graygtalk2 = "audio/graygtalk2.mp3"
-define darkambient1 = "audio/music dark ambient 1.mp3"
-define darkambient2 = "audio/music dark ambient 2.mp3"
-define braams1 = "audio/braams1.mp3"
-define braams2 = "audio/braams2.mp3"
-define braams3 = "audio/braams3.mp3"
-
-define forest1 = "audio/music forest 1.mp3"
-define forest2 = "audio/music forest 2.mp3"
-define forest3 = "audio/music forest 3.mp3"
-define forest4 = "audio/music forest 4.mp3"
-define forest5 = "audio/music forest 2.mp3"
-define river1 = "audio/music river 1.mp3"
-define river2 = "audio/music river 2.mp3"
-define darkambient1 = "audio/music dark ambient 1.mp3"
-define darkambient2 = "audio/music dark ambient 2.mp3"
-define forestambient1 = "audio/forestambient1.mp3"
-
-
 # ANIMATIONS DEFINITIONS 
-
-transform move_center_to_left:
-    xalign 0.5         # empieza en el centro
-    linear 1.0 xalign 0.0   # en 1 segundo se mueve a la izquierda
-
-transform move_center_to_right:
-    xalign 0.5         # empieza en el centro
-    linear 1.0 xalign 1.0   # en 1 segundo se mueve a la derecha    
-
-transform move_left_to_center:
-    xalign 0.0         # empieza en el centro
-    linear 1.0 xalign 0.5   # en 1 segundo se mueve a la izquierda    
-
-transform move_right_to_center:
-    xalign 1.0         # empieza en el centro
-    linear 1.0 xalign 0.5   # en 1 segundo se mueve a la derecha    
 
 transform enter_left:
     xalign -0.5        # empieza fuera de la pantalla por la izquierda
@@ -129,12 +82,3 @@ transform enter_right:
 transform exit_left:
     xalign 0.5        # empieza en el centro
     linear 1.0 xalign -0.5   # en 1 segundo se mueve fuera de la pantalla por la izquierda
-
-transform exit_right:
-    xalign 0.5        # empieza en el centro
-    linear 1.0 xalign 1.5   # en 1 segundo se mueve fuera de la pantalla por la derecha
-
-
-transform bubble_follow(char_xalign):
-    xalign char_xalign
-    yalign 0.0
