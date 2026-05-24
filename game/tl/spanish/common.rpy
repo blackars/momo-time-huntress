@@ -316,35 +316,35 @@ translate spanish strings:
 
     # renpy/common/00action_file.rpy:613
     old "File page auto"
-    new "Página auto"
+    new "Pagina auto"
 
     # renpy/common/00action_file.rpy:615
     old "File page quick"
-    new "Página rápida"
+    new "Pagina rapida"
 
     # renpy/common/00action_file.rpy:617
     old "File page [text]"
-    new "Página [text]"
+    new "Pagina [text]"
 
     # renpy/common/00action_file.rpy:816
     old "Next file page."
-    new "Página siguiente."
+    new "Pagina siguiente."
 
     # renpy/common/00action_file.rpy:888
     old "Previous file page."
-    new "Página anterior."
+    new "Pagina anterior."
 
     # renpy/common/00action_file.rpy:949
     old "Quick save complete."
-    new "Guardado rápido completo."
+    new "Guardado rapido completo."
 
     # renpy/common/00action_file.rpy:964
     old "Quick save."
-    new "Guardado rápido."
+    new "Guardado rapido."
 
     # renpy/common/00action_file.rpy:983
     old "Quick load."
-    new "Carga rápida."
+    new "Carga rapida."
 
     # renpy/common/00action_other.rpy:416
     old "Language [text]"
@@ -476,7 +476,7 @@ translate spanish strings:
 
     # renpy/common/00gui.rpy:448
     old "Are you sure?"
-    new "¿Estás seguro?"
+    new "¿Estas seguro?"
 
     # renpy/common/00gui.rpy:449
     old "Are you sure you want to delete this save?"
@@ -488,23 +488,23 @@ translate spanish strings:
 
     # renpy/common/00gui.rpy:451
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new "Al cargar se perderá el progreso no guardado.\n¿Estás seguro de que quieres hacer esto?"
+    new "Al cargar se perdera el progreso no guardado.\n¿Estas seguro de que quieres hacer esto?"
 
     # renpy/common/00gui.rpy:452
     old "Are you sure you want to quit?"
-    new "¿Estás seguro de que quieres salir?"
+    new "¿Estas seguro de que quieres salir?"
 
     # renpy/common/00gui.rpy:453
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-    new "¿Seguro que quieres volver al menú principal?\nSe perderá el progreso no guardado."
+    new "¿Seguro que quieres volver al menu principal?\nSe perdera el progreso no guardado."
 
     # renpy/common/00gui.rpy:454
     old "Are you sure you want to continue where you left off?"
-    new "¿Estás seguro de que quieres continuar donde lo dejaste?"
+    new "¿Estas seguro de que quieres continuar donde lo dejaste?"
 
     # renpy/common/00gui.rpy:455
     old "Are you sure you want to end the replay?"
-    new "¿Seguro que quieres terminar la repetición?"
+    new "¿Seguro que quieres terminar la repeticion?"
 
     # renpy/common/00gui.rpy:456
     old "Are you sure you want to begin skipping?"
@@ -512,19 +512,19 @@ translate spanish strings:
 
     # renpy/common/00gui.rpy:457
     old "Are you sure you want to skip to the next choice?"
-    new "¿Seguro que quieres saltar hasta la siguiente decisión?"
+    new "¿Seguro que quieres saltar hasta la siguiente decision?"
 
     # renpy/common/00gui.rpy:458
     old "Are you sure you want to skip unseen dialogue to the next choice?"
-    new "¿Seguro que quieres saltar el diálogo no visto hasta la siguiente decisión?"
+    new "¿Seguro que quieres saltar el dialogo no visto hasta la siguiente decision?"
 
     # renpy/common/00gui.rpy:459
     old "This save was created on a different device. Maliciously constructed save files can harm your computer. Do you trust this save's creator and everyone who could have changed the file?"
-    new "Este guardado fue creado en otro dispositivo. ¿Confías en el creador de este archivo?"
+    new "Este guardado fue creado en otro dispositivo. ¿Confias en el creador de este archivo?"
 
     # renpy/common/00gui.rpy:460
     old "Do you trust the device the save was created on? You should only choose yes if you are the device's sole user."
-    new "¿Confías en el dispositivo en el que se creó este archivo? Selecciona sí solo si eres el único usuario."
+    new "¿Confias en el dispositivo en el que se creo este archivo? Selecciona si solo si eres el unico usuario."
 
     # renpy/common/00keymap.rpy:325
     old "Failed to save screenshot as %s."

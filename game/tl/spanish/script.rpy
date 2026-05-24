@@ -412,7 +412,7 @@ translate spanish build_fire_5b8438b4:
 translate spanish build_fire_99e9ee86:
 
     # mo "Come on, Casiopeia."
-    mo ""
+    mo "Vamos, Casiopeia."
 
 # game/script.rpy:190
 translate spanish build_fire_4b19ab39:
@@ -508,7 +508,7 @@ translate spanish go_to_castle_b59a0956:
 translate spanish go_to_castle_cad0e175:
 
     # ca " "
-    ca ""
+    ca "  "
 
 # game/script.rpy:263
 translate spanish go_to_castle_49caf48d:
@@ -628,7 +628,7 @@ translate spanish go_to_castle_cd451dc7:
 translate spanish read_story_b2e874c5:
 
     # book "A city built around a tower that never slept."
-    book "Una ciudad construida alrededor de una torre que nunca dormía."
+    book "Una ciudad construida alrededor de una torre que nunca dormia."
 
 # game/script.rpy:304
 translate spanish read_story_c2d4fbd0:
@@ -646,13 +646,13 @@ translate spanish read_story_1841fb08:
 translate spanish read_story_a1692b44:
 
     # book "No one remembers who built the first clock."
-    book "Nadie recuerda quién construyó el primer reloj."
+    book "Nadie recuerda quien construyó el primer reloj."
 
 # game/script.rpy:307
 translate spanish read_story_373780e0:
 
     # book "Only that, one day, time began to fracture."
-    book "Solo que, un día, el tiempo comenzó a fracturarse."
+    book "Solo que, un dia, el tiempo comenzó a fracturarse."
 
 # game/script.rpy:308
 translate spanish read_story_833ed316:
@@ -718,7 +718,7 @@ translate spanish read_story_7a32dfc0:
 translate spanish read_story_fcda2490:
 
     # mo "Casiopeia..."
-    mo ""
+    mo "Casiopeia..."
 
 # game/script.rpy:322
 translate spanish read_story_47a35f6c:
@@ -808,7 +808,7 @@ translate spanish river_way_3b1a6e8f:
 translate spanish river_way_0b64a8a2:
 
     # mo "Not instinct."
-    mo "No instintos."
+    mo "No son instintivos."
 
 # game/script.rpy:367
 translate spanish river_way_9a60b472:
@@ -922,7 +922,7 @@ translate spanish river_way_b4487ffc:
 translate spanish river_way_e5cf9295:
 
     # mo "The crater must be wider."
-    mo "El cráter debe ser más ancho."
+    mo "El cráter debe ser muy ancho."
 
 # game/script.rpy:408
 translate spanish river_way_dcf861a2:
@@ -987,7 +987,7 @@ translate spanish river_way_c0ca582c:
 # game/script.rpy:434
 translate spanish river_way_3f107051:
 
-    # mo "I wonder what strange object it came to find this time."
+    # mo "I wonder what strange object it came to find  this time."
     mo "Me pregunto qué extraño objeto vino a buscar esta vez."
 
 # game/script.rpy:435
@@ -1102,7 +1102,7 @@ translate spanish river_way_c887c90a:
 translate spanish river_way_5840038d:
 
     # mo "Or stranger."
-    mo "O más extrañas."
+    mo "O son más extrañas."
 
 # game/script.rpy:460
 translate spanish river_way_00fb4568_5:
@@ -1168,7 +1168,7 @@ translate spanish river_way_82788f87:
 translate spanish river_way_cad0e175:
 
     # ca " "
-    ca ""
+    ca "  "
 
 # game/script.rpy:490
 translate spanish river_way_49caf48d:
