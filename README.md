@@ -17,6 +17,11 @@
   <img src="https://img.shields.io/badge/Genre-Visual%20Novel%20%7C%20Dark%20Fantasy-8B0000?style=for-the-badge">
   <img src="https://img.shields.io/badge/Resolution-1920x1080-black?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Play%20Online-Itch.io-fa5c5c?style=for-the-badge&logo=itch.io&logoColor=white">
+</p>
+
+<p align="center">
+  <a href="https://blackars.itch.io/momo-time-huntress">🎮 Play on Itch.io</a> · Compatible with all browsers on desktop, tablet & mobile 📱
 </p>
 
 ---
