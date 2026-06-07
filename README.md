@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/Genre-Visual%20Novel%20%7C%20Dark%20Fantasy-8B0000?style=for-the-badge">
   <img src="https://img.shields.io/badge/Resolution-1920x1080-black?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Play%20Online-Itch.io-fa5c5c?style=for-the-badge&logo=itch.io&logoColor=white">
+    <img src="https://img.shields.io/badge/Play%20Online-Itch.io-fa5c5c?style=for-the-badge&logo=itch.io&logoColor=white">
 </p>
 
 <p align="center">
@@ -55,7 +55,7 @@ Between ruins swallowed by moss, rivers that hide their scent from pattern-track
   <img src="game/images/sprites/momo/momo_fb_neutral.webp" alt="Momo" width="200">
 </div>
 
-### Momo 🌙
+### Momo 🗡️
 > *The last huntress of a consumed world.*
 
 Fierce, scarred, and relentless. Momo carries the weight of a reality already erased by the Gray Gentlemen. She speaks to Casiopeia as if reading their silence, finds beauty in ruins, and sharpens her grief into a blade.
@@ -64,7 +64,7 @@ Fierce, scarred, and relentless. Momo carries the weight of a reality already er
   <img src="game/images/sprites/casiopeia/cas_right.webp" alt="Casiopeia" width="200">
 </div>
 
-### Casiopeia 🐺
+### Casiopeia 🐢
 > *A silent presence that speaks in symbols.*
 
 Casiopeia never speaks — but Momo understands every silence. They trace mysterious symbols in the air, feel vibrations before anomalies arrive, and seem to know more than they let on.
