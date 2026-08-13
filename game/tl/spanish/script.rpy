@@ -505,9 +505,9 @@ translate spanish go_to_castle_b59a0956:
     mo "¿Qué pasa, Casiopea?"
 
 # game/script.rpy:251
-translate spanish go_to_castle_cad0e175:
+translate spanish go_to_castle_b6af36ed:
 
-    # ca " "
+    # ca "   "
     ca "  "
 
 # game/script.rpy:263
@@ -985,9 +985,9 @@ translate spanish river_way_c0ca582c:
     mo "Eso es lo que me preocupa."
 
 # game/script.rpy:434
-translate spanish river_way_3f107051:
+translate spanish river_way_6f62852a:
 
-    # mo "I wonder what strange object it came to find  this time."
+    # mo "I wonder what strange object it came to find this time."
     mo "Me pregunto qué extraño objeto vino a buscar esta vez."
 
 # game/script.rpy:435
@@ -1165,9 +1165,9 @@ translate spanish river_way_82788f87:
     mo "¿Qué pasa?"
 
 # game/script.rpy:478
-translate spanish river_way_cad0e175:
+translate spanish river_way_b6af36ed:
 
-    # ca " "
+    # ca "   "
     ca "  "
 
 # game/script.rpy:490

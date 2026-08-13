@@ -1,0 +1,50 @@
+name: Build web & publish to itch.io
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'game/**'
+      - '.github/workflows/**'
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download Ren'Py SDK
+        run: |
+          curl -fsSL -o renpy-sdk.tar.bz2 "https://www.renpy.org/dl/8.5.2/renpy-8.5.2-sdk.tar.bz2"
+          tar xjf renpy-sdk.tar.bz2
+          chmod +x renpy-8.5.2-sdk/renpy.sh
+
+      - name: Build web distribution
+        env:
+          SDL_VIDEODRIVER: dummy
+        run: |
+          ./renpy-8.5.2-sdk/renpy.sh ./renpy-8.5.2-sdk/launcher web_build "$PWD"
+
+      - name: Locate web distribution
+        id: dist
+        run: |
+          DIST_DIR="$(find . -maxdepth 3 -type d -name '*-web' | head -n 1)"
+          echo "dist_dir=$DIST_DIR" >> "$GITHUB_OUTPUT"
+          ls -la "$DIST_DIR"
+
+      - name: Download butler
+        run: |
+          curl -fsSL -o butler.zip "https://github.com/itchio/butler/releases/download/v15.30.0/butler-linux-amd64.zip"
+          unzip butler.zip -d butler-dir
+          chmod +x butler-dir/butler
+
+      - name: Publish to itch.io
+        if: ${{ secrets.ITCHIO_API_KEY != '' }}
+        env:
+          BUTLER_API_KEY: ${{ secrets.ITCHIO_API_KEY }}
+        run: |
+          ./butler-dir/butler push "${{ steps.dist.outputs.district }}" \
+            blackars/momo-time-huntress:web \
+            --userversion "1.0.${{ github.run_number }}"
